@@ -2,7 +2,7 @@
 var ex = import('./src/Plugins/Core/document.js');
 
 ex.then(value => {
-  console.log(value.plugin);
+  console.log(value.plugin.test(1));
 }).catch(err => {
   console.log(err);
 });
