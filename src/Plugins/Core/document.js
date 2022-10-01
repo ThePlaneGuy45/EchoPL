@@ -1,10 +1,6 @@
 import {util} from "../../Framework/util/util.js";
 
 class document {
-    constructer(document) {
-        this.document = document;
-    }
-
     getInfo() {
         return {
             id: "document",
@@ -19,6 +15,6 @@ class document {
     }
 };
 
-var plugin = new document(0);
+var plugin = new document();
 
 export {plugin};
