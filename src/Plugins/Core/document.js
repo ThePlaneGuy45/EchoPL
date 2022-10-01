@@ -19,6 +19,6 @@ class document {
     }
 };
 
-plugin = new document(0);
+var plugin = new document(0);
 
 export {plugin};
