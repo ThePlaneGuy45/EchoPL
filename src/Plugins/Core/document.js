@@ -1,4 +1,4 @@
-import {util} from ".../Framework/util";
+import {util} from "../../Framework/util";
 
 class document {
     constructer(document) {
