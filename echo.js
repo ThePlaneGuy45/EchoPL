@@ -22,7 +22,7 @@ pl.load = function(file) {
   });
 }
 
-const echo = {
+window.echo = {
   "ver": "0.0.1",
   "version": "0.0.1",
   "v": "0.0.1",
