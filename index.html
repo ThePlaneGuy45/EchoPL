@@ -1,9 +1,4 @@
+<script src="./echo.js/"></script>
 <script>
-var ex = import('./src/Plugins/Core/document.js');
-
-ex.then(value => {
-  console.log(value.plugin.test(1));
-}).catch(err => {
-  console.log(err);
-});
+const g = echo.pl("./src/Plugins/Core/document.js");
 </script>
