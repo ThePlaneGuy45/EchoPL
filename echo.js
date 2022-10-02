@@ -8,14 +8,14 @@ script.load = function(file) {
   });
 }
 
-const plunginList = {};
+window.plunginList = {};
 const pl = {};
 pl.load = function(file) {
   import(file).then(value => {
-    if(pluginList.hasOwnProperty(value.id)) {
+    if(window.pluginList.hasOwnProperty(value.id)) {
       console.error("Unable To Duplicate Plugin IDs");
     } else {
-      pluginList[value.id] = value.functions;
+      window.pluginList[value.id] = value.functions;
     }
   }).catch(err => {
     console.error(err);
