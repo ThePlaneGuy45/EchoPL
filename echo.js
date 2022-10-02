@@ -28,8 +28,8 @@ window.echo = {
   "v": "0.0.1",
   "info": "Echo Plugin Loader v0.0.1",
   "information": "Echo Plugin Loader v0.0.1",
-  "script": script(),
-  "s": script(),
-  "plugin": pl(),
-  "pl": pl()
+  "script": script,
+  "s": script,
+  "plugin": pl,
+  "pl": pl
 };
