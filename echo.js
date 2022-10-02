@@ -15,7 +15,7 @@ pl.load = function(file) {
     if(pluginList.hasOwnProperty(value.id)) {
       console.error("Unable To Duplicate Plugin IDs");
     } else {
-      pluginList.[value.id] = value.functions;
+      pluginList[value.id] = value.functions;
     }
   }).catch(err => {
     console.error(err);
